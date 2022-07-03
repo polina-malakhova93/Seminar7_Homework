@@ -9,7 +9,7 @@ for (int i = 0; i < numbers.GetLength(0); i++)
         numbers[i, j] = new Random().Next(1, 100);
     }
 }
-PrintArray(numbers);
+PrintArray(numbers); // это можно было и не писать, а просто задать любой массив
 
 int line = Input("Введите индекс строки: ");
 int column = Input("Введите индекс столбца: ");
